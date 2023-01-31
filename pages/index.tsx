@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import MeetupList from '../components/meetups/MeetupList'
 
+/*
 const dummieMeetups: MeetUp[] = [
   {
     id: "m1",
@@ -21,6 +22,7 @@ const dummieMeetups: MeetUp[] = [
     description: "Es ist schön!"
   }
 ]
+*/
 
 
 function Home(props: { meetups: MeetUp[]}) {
