@@ -2,7 +2,7 @@ import { MeetUp } from '@/interfaces/meetups';
 import { MutableRefObject, useRef } from 'react';
 
 import Card from '../ui/Card';
-import classes from './NewMeetupForm.module.css';
+import classes from './NewMeetupForm.module.scss';
 
 function NewMeetupForm(props: any) {
   const titleInputRef = useRef(null);

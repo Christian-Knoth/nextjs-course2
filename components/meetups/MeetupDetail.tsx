@@ -1,4 +1,4 @@
-import classes from './MeetupDetail.module.css';
+import classes from './MeetupDetail.module.scss';
 import { MeetUp } from '@/interfaces/meetups';
 
 function MeetupDetail(props: MeetUp) {
